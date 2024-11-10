@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Wandering Silence</title>
-
-    <!-- Recommended meta tags -->
+    <title>My App</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <iframe src="https://nasrin1748.github.io/htmlrepo/?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" height="300px" width="100%" title="Iframe Example"></iframe>
 
-    <!-- PyScript CSS -->
-    <link rel="stylesheet" href="https://pyscript.net/releases/2024.10.1/core.css">
+   <link rel="stylesheet" href="https://pyscript.net/releases/2023.03.1/pyscript.css" />
+   <script defer src="https://pyscript.net/releases/2023.03.1/pyscript.js"></script>
 
-    <!-- This script tag bootstraps PyScript -->
-    <script type="module" src="https://pyscript.net/releases/2024.10.1/core.js"></script>
 </head>
 <body>
-    <script type="py" src="./main.py" config="./pyscript.toml" terminal></script>
+    <py-script>
+       import os
+       print("hello")
+       print(os.getcwd())
+ 
+    </py-script>
 </body>
 </html>
